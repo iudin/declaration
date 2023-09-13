@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": ["ESNext", "DOM"],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["node"]
+  },
+  "ts-node": {
+    "files": true
+  },
+  "exclude": ["node_modules"]
+}
